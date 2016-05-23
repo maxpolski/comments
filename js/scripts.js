@@ -4,6 +4,13 @@ var commentTextInput = document.getElementById('commentText');
 
 addCommentBtn.onclick = addCommentHandler;
 
+document.body.onkeydown = function(e) {
+    if (e.ctrlKey && e.keyCode === 13)
+        addCommentHandler(e);
+};
+
+
+
 function addCommentHandler(e) {
 	e.preventDefault();
 	var commentText = commentTextInput.value;
