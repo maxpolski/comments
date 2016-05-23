@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Comments</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="main-wrap">
+		<div id="employee-info">
+			<div class="employee-personal-info">
+				<img src="images/avatar.png" alt="">
+				<h1>Вероника Ростова</h1>
+				<h2>Менеджер по продажам</h2>
+				<p>Подберу для вас самые лучшие предложения. <br />
+				   Мои услуги абсолютно бесплатны</p>
+			</div>
+			<div class="employee-services">
+				<table>
+					<thead>
+						<tr>
+							<td colspan="2">Услуг</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<div class="progress">
+									<pre>Ручное бронирование</pre>
+								</div>
+							</td>
+							<td>11</td>
+						</tr>
+						<tr>
+							<td><div class="progress"><pre>Пакетные туры</pre></div></td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td><div class="progress"><pre>Отели</pre></div></td>
+							<td>1</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td>Всего</td>
+							<td>15</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+
+		<div id="last-comments">
+			<div class="last-comments-head">
+				<h1>Последние отзывы</h1>
+				<a href="#">Все отзывы</a>
+				<div class="comments-summary">
+					<span>131</span>
+					<span>14</span>
+				</div>
+			</div>
+			<div class="comment-block">
+				<h1>Самуил</h1>
+				<span>13 октября 2011</span>
+				<p class="comment">Привет, Верунь! ниче себе ты крутая. фотка класс!!!!</p>
+			</div>
+			<div class="comment-block">
+				<h1>Лилия Семёновна</h1>
+				<span>14 октября 2011</span>
+				<p class="comment">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</p>
+			</div>
+			<div class="comment-block">
+				<h1>Лилия Семёновна</h1>
+				<span>14 октября 2011</span>
+				<p class="comment">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+			</div>
+		</div>
+
+		<div id="leave-comment-block">
+			<form action="">
+				<textarea name="comment-text" id="commentText" cols="30" rows="6"></textarea>
+				<button type="submit" id="addCommentBtn">Написать консультанту</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
